@@ -28,7 +28,7 @@ class LibraryVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.performSegue(withIdentifier: "toDetails1", sender: indexPath)
         
-        print("iji")
+        print("Hello Santi, this is Nathan from heaven.")
         
     }
     
