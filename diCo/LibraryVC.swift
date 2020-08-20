@@ -20,15 +20,13 @@ class LibraryVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
            
         }
         
-        
-
         // Do any additional setup after loading the view.
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.performSegue(withIdentifier: "toDetails1", sender: indexPath)
         
-        print("Hello Santi, this is Nathan from hekmkmavcc dffen.")
+        print("Hello Santi, this is Nathan from heaven. Because I don't care hejbsbcd hvjdv")
         
     }
     
