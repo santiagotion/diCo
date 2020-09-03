@@ -24,6 +24,7 @@
 		CE72598024EA96F60084A0DD /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72597F24EA96F60084A0DD /* HomeVC.swift */; };
 		CE72598224EB91FC0084A0DD /* SelfSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72598124EB91FC0084A0DD /* SelfSizedTableView.swift */; };
 		CE72598424EBB8D10084A0DD /* LibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72598324EBB8D10084A0DD /* LibraryVC.swift */; };
+		CE8A4AD2250050E200DA9D86 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A4AD1250050E200DA9D86 /* DetailsVC.swift */; };
 		CEC41E0124F08AA6008C8135 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEC41E0024F08AA6008C8135 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		CE72597F24EA96F60084A0DD /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		CE72598124EB91FC0084A0DD /* SelfSizedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizedTableView.swift; sourceTree = "<group>"; };
 		CE72598324EBB8D10084A0DD /* LibraryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryVC.swift; sourceTree = "<group>"; };
+		CE8A4AD1250050E200DA9D86 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 		CEC41E0024F08AA6008C8135 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CEC41E0224F08BD4008C8135 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -120,6 +122,7 @@
 				CE72596B24EA3DA40084A0DD /* SceneDelegate.swift */,
 				CE72596D24EA3DA40084A0DD /* WelcomeVC.swift */,
 				CE72596F24EA3DA40084A0DD /* Main.storyboard */,
+				CE8A4AD1250050E200DA9D86 /* DetailsVC.swift */,
 				CE04F49C24ECF8A700B80F86 /* popularVC.swift */,
 				CE04F48624ECCBD600B80F86 /* RecentCell.swift */,
 				CE72598324EBB8D10084A0DD /* LibraryVC.swift */,
@@ -268,6 +271,7 @@
 				CE04F48724ECCBD600B80F86 /* RecentCell.swift in Sources */,
 				CE72596C24EA3DA40084A0DD /* SceneDelegate.swift in Sources */,
 				CE04F49724ECE98C00B80F86 /* SignUpVC.swift in Sources */,
+				CE8A4AD2250050E200DA9D86 /* DetailsVC.swift in Sources */,
 				CE04F48924ECDDEA00B80F86 /* PopularCell.swift in Sources */,
 				CE04F49324ECE66900B80F86 /* LodingViewIndicator.swift in Sources */,
 			);
