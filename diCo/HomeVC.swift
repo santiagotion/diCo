@@ -36,7 +36,7 @@ class HomeVC: UIViewController,  UICollectionViewDataSource, UICollectionViewDel
         self.tableView.removeObserver(self, forKeyPath: "contentSize")
     }
     
-    
+    // Keep track of size of the vertical table view
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         
         if keyPath ==  "contentSize" {
@@ -55,9 +55,9 @@ class HomeVC: UIViewController,  UICollectionViewDataSource, UICollectionViewDel
     
     
     
-    
+    // Populate collection view
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 3
+        return 6
     }
     
     

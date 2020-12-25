@@ -17,7 +17,6 @@ class LibraryVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         if #available(iOS 13.0, *) {
             searchField.overrideUserInterfaceStyle = .light
            
-           
         }
         
         
@@ -28,7 +27,7 @@ class LibraryVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.performSegue(withIdentifier: "toDetails1", sender: indexPath)
         
-        print("iji")
+        //print("iji")
         
     }
     
