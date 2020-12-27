@@ -16,12 +16,6 @@ class HomeVC: UIViewController,  UICollectionViewDataSource, UICollectionViewDel
     @IBOutlet weak var searchField: UITextField!
     
     
-    
-    //var wordToPass : Class!
-    
-   // var class = [Class]()
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -85,18 +79,8 @@ class HomeVC: UIViewController,  UICollectionViewDataSource, UICollectionViewDel
     
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        //        wordToPass = class[indexPath.item]
         self.performSegue(withIdentifier: "toDetails2", sender: indexPath)
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -110,9 +94,6 @@ class HomeVC: UIViewController,  UICollectionViewDataSource, UICollectionViewDel
            
        }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-//        wordToPass = class[indexPath.item]
-        
         self.performSegue(withIdentifier: "toDetails2", sender: indexPath)
         
     }
@@ -120,16 +101,6 @@ class HomeVC: UIViewController,  UICollectionViewDataSource, UICollectionViewDel
     
      func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
-    }
-    
-    
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let detailViewController = segue.destination as? DetailsVC {
-            
-         // detailViewController.selectedWord = wordToPass
-          
-        }
     }
    
 

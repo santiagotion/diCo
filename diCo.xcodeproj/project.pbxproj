@@ -15,6 +15,7 @@
 		CE04F49324ECE66900B80F86 /* LodingViewIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04F49224ECE66900B80F86 /* LodingViewIndicator.swift */; };
 		CE04F49724ECE98C00B80F86 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04F49624ECE98C00B80F86 /* SignUpVC.swift */; };
 		CE04F49D24ECF8A700B80F86 /* popularVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04F49C24ECF8A700B80F86 /* popularVC.swift */; };
+		CE04F49F24ECFC3000B80F86 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE04F49E24ECFC3000B80F86 /* GoogleService-Info.plist */; };
 		CE72596A24EA3DA40084A0DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72596924EA3DA40084A0DD /* AppDelegate.swift */; };
 		CE72596C24EA3DA40084A0DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72596B24EA3DA40084A0DD /* SceneDelegate.swift */; };
 		CE72596E24EA3DA40084A0DD /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72596D24EA3DA40084A0DD /* WelcomeVC.swift */; };
@@ -24,8 +25,6 @@
 		CE72598024EA96F60084A0DD /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72597F24EA96F60084A0DD /* HomeVC.swift */; };
 		CE72598224EB91FC0084A0DD /* SelfSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72598124EB91FC0084A0DD /* SelfSizedTableView.swift */; };
 		CE72598424EBB8D10084A0DD /* LibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72598324EBB8D10084A0DD /* LibraryVC.swift */; };
-		CE8A4AD2250050E200DA9D86 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A4AD1250050E200DA9D86 /* DetailsVC.swift */; };
-		CEC41E0124F08AA6008C8135 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEC41E0024F08AA6008C8135 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +38,7 @@
 		CE04F49224ECE66900B80F86 /* LodingViewIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodingViewIndicator.swift; sourceTree = "<group>"; };
 		CE04F49624ECE98C00B80F86 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		CE04F49C24ECF8A700B80F86 /* popularVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularVC.swift; sourceTree = "<group>"; };
+		CE04F49E24ECFC3000B80F86 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CE72596624EA3DA40084A0DD /* diCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72596924EA3DA40084A0DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE72596B24EA3DA40084A0DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,9 +50,6 @@
 		CE72597F24EA96F60084A0DD /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		CE72598124EB91FC0084A0DD /* SelfSizedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizedTableView.swift; sourceTree = "<group>"; };
 		CE72598324EBB8D10084A0DD /* LibraryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryVC.swift; sourceTree = "<group>"; };
-		CE8A4AD1250050E200DA9D86 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
-		CEC41E0024F08AA6008C8135 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		CEC41E0224F08BD4008C8135 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +67,6 @@
 		B654DB86F95026A9F6E8A880 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEC41E0224F08BD4008C8135 /* FirebaseDatabase.framework */,
 				92B7B32440C33B3AA89AA549 /* Pods_diCo.framework */,
 			);
 			name = Frameworks;
@@ -122,14 +118,13 @@
 				CE72596B24EA3DA40084A0DD /* SceneDelegate.swift */,
 				CE72596D24EA3DA40084A0DD /* WelcomeVC.swift */,
 				CE72596F24EA3DA40084A0DD /* Main.storyboard */,
-				CE8A4AD1250050E200DA9D86 /* DetailsVC.swift */,
 				CE04F49C24ECF8A700B80F86 /* popularVC.swift */,
 				CE04F48624ECCBD600B80F86 /* RecentCell.swift */,
 				CE72598324EBB8D10084A0DD /* LibraryVC.swift */,
 				CE72597224EA3DA70084A0DD /* Assets.xcassets */,
 				CE04F48824ECDDEA00B80F86 /* PopularCell.swift */,
+				CE04F49E24ECFC3000B80F86 /* GoogleService-Info.plist */,
 				CE72597424EA3DA70084A0DD /* LaunchScreen.storyboard */,
-				CEC41E0024F08AA6008C8135 /* GoogleService-Info.plist */,
 				CE72597724EA3DA70084A0DD /* Info.plist */,
 				CE72597F24EA96F60084A0DD /* HomeVC.swift */,
 				CE72598124EB91FC0084A0DD /* SelfSizedTableView.swift */,
@@ -198,7 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE72597624EA3DA70084A0DD /* LaunchScreen.storyboard in Resources */,
-				CEC41E0124F08AA6008C8135 /* GoogleService-Info.plist in Resources */,
+				CE04F49F24ECFC3000B80F86 /* GoogleService-Info.plist in Resources */,
 				CE72597324EA3DA70084A0DD /* Assets.xcassets in Resources */,
 				CE72597124EA3DA40084A0DD /* Main.storyboard in Resources */,
 			);
@@ -260,7 +255,6 @@
 				CE04F48724ECCBD600B80F86 /* RecentCell.swift in Sources */,
 				CE72596C24EA3DA40084A0DD /* SceneDelegate.swift in Sources */,
 				CE04F49724ECE98C00B80F86 /* SignUpVC.swift in Sources */,
-				CE8A4AD2250050E200DA9D86 /* DetailsVC.swift in Sources */,
 				CE04F48924ECDDEA00B80F86 /* PopularCell.swift in Sources */,
 				CE04F49324ECE66900B80F86 /* LodingViewIndicator.swift in Sources */,
 			);
@@ -415,7 +409,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lgdevsoftware.diCo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathantuala.smartDict;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -435,7 +429,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lgdevsoftware.diCo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathantuala.smartDict;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
