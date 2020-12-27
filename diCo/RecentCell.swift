@@ -15,29 +15,25 @@ class RecentCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         
-        let colorRa = UIColor.random().darker(by: 15)
+        let colorRa = UIColor.random().darker(by: 5)
         
        // colorRa.darker(by: 30)
-        // Modify UI(Decoration)
+        
         self.bacgroungColor.backgroundColor =  colorRa
         self.bacgroungColor.layer.shadowColor =  colorRa?.cgColor
         
         self.bacgroungColor.layer.shadowOpacity = 0.6
         self.bacgroungColor.layer.shadowOffset = .init(width: 0, height: 0)
         self.bacgroungColor.layer.shadowRadius = 8
-        //End
-        
     }
     
 }
 
-// Decoration ezo continuer
 extension CGFloat {
     static func random() -> CGFloat {
         return CGFloat(arc4random()) / CGFloat(UInt32.max)
     }
 }
-
 
 extension UIColor {
     static func random() -> UIColor {
@@ -72,6 +68,4 @@ extension UIColor {
         }
     }
 }
-
-// Suka
 
